@@ -1,0 +1,11 @@
+<configuration>
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <setting name="jdbcTypeForNull" value="NULL"/>
+    </settings>
+	<typeAliases>
+        <typeAlias alias="HashMap" type="java.util.HashMap"/>
+        <typeAlias alias="Map" type="java.util.Map"/>
+        <package name="com.example.vscode"/>
+    </typeAliases>
+</configuration>
