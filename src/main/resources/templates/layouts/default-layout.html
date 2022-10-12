@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html
+      xmlns:th="http://www.thymeleaf.org" 
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+  <th:block th:replace="layouts/fragments/head :: head"></th:block>
+    <title>vscode</title>
+  </head>
+  <body>
+    <th:block th:replace="layouts/fragments/header :: header"></th:block>
+    
+    <div layout:fragment="content" class="container"></div>
+
+    <th:block th:replace="layouts/fragments/footer :: footer"></th:block>
+  </body>
+</html>

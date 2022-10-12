@@ -1,71 +1,45 @@
-[2022-10-11 22:23:13:368][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
-[2022-10-11 22:23:13:371][restartedMain] INFO  c.example.vscode.VscodeApplication - Starting VscodeApplication using Java 17.0.4.1 on DA26 with PID 19368 (D:\study_java\SpringBoot\vscode\bin\main started by DA26 in D:\study_java\SpringBoot\vscode)
-[2022-10-11 22:23:13:372][restartedMain] INFO  c.example.vscode.VscodeApplication - No active profile set, falling back to 1 default profile: "default"
-[2022-10-11 22:23:13:525][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-[2022-10-11 22:23:13:525][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-[2022-10-11 22:23:13:870][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-[2022-10-11 22:23:13:878][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
-[2022-10-11 22:23:14:1262][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
-[2022-10-11 22:23:14:1269][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
-[2022-10-11 22:23:14:1270][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-[2022-10-11 22:23:14:1270][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-[2022-10-11 22:23:14:1325][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-[2022-10-11 22:23:14:1325][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 799 ms
-[2022-10-11 22:23:14:1461][restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+[2022-10-12 21:00:23:447][restartedMain] INFO  c.example.vscode.VscodeApplication - Starting VscodeApplication using Java 17.0.4.1 on DA26 with PID 14244 (D:\study_java\SpringBoot\vscode\bin\main started by DA26 in D:\study_java\SpringBoot\vscode)
+[2022-10-12 21:00:23:448][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+[2022-10-12 21:00:23:447][restartedMain] INFO  c.example.vscode.VscodeApplication - Starting VscodeApplication using Java 17.0.4.1 on DA26 with PID 14244 (D:\study_java\SpringBoot\vscode\bin\main started by DA26 in D:\study_java\SpringBoot\vscode)
+[2022-10-12 21:00:23:451][restartedMain] DEBUG c.example.vscode.VscodeApplication - Running with Spring Boot v2.7.4, Spring v5.3.23
+[2022-10-12 21:00:23:451][restartedMain] DEBUG c.example.vscode.VscodeApplication - Running with Spring Boot v2.7.4, Spring v5.3.23
+[2022-10-12 21:00:23:467][restartedMain] INFO  c.example.vscode.VscodeApplication - No active profile set, falling back to 1 default profile: "default"
+[2022-10-12 21:00:23:467][restartedMain] INFO  c.example.vscode.VscodeApplication - No active profile set, falling back to 1 default profile: "default"
+[2022-10-12 21:00:23:662][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-10-12 21:00:23:662][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-10-12 21:00:24:1221][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[2022-10-12 21:00:24:1234][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+[2022-10-12 21:00:24:1697][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[2022-10-12 21:00:24:1705][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[2022-10-12 21:00:24:1707][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2022-10-12 21:00:24:1707][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[2022-10-12 21:00:25:1773][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2022-10-12 21:00:25:1774][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1112 ms
+[2022-10-12 21:00:25:1961][restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
 
-Using generated security password: 7376d6f3-69b0-4986-9ec5-436ecff99714
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-[2022-10-11 22:23:14:1518][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@301eeaa4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@59d9cc64, org.springframework.security.web.context.SecurityContextPersistenceFilter@1a99c49b, org.springframework.security.web.header.HeaderWriterFilter@51d5649c, org.springframework.security.web.authentication.logout.LogoutFilter@46752613, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68fb740b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@297cdfa7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@66282a49, org.springframework.security.web.session.SessionManagementFilter@4ad60b7b, org.springframework.security.web.access.ExceptionTranslationFilter@1f487a6]
-[2022-10-11 22:23:14:1527][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
-[2022-10-11 22:23:14:1528][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/resources/**']
-[2022-10-11 22:23:14:1781][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-[2022-10-11 22:23:15:1941][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-[2022-10-11 22:23:15:2013][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-[2022-10-11 22:23:15:2023][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
-[2022-10-11 22:23:15:2040][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
-[2022-10-11 22:23:15:2048][restartedMain] INFO  c.example.vscode.VscodeApplication - Started VscodeApplication in 1.914 seconds (JVM running for 2.351)
-[2022-10-11 22:24:05:379][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
-[2022-10-11 22:24:05:380][restartedMain] INFO  c.example.vscode.VscodeApplication - Starting VscodeApplication using Java 17.0.4.1 on DA26 with PID 4920 (D:\study_java\SpringBoot\vscode\bin\main started by DA26 in D:\study_java\SpringBoot\vscode)
-[2022-10-11 22:24:05:380][restartedMain] INFO  c.example.vscode.VscodeApplication - Starting VscodeApplication using Java 17.0.4.1 on DA26 with PID 4920 (D:\study_java\SpringBoot\vscode\bin\main started by DA26 in D:\study_java\SpringBoot\vscode)
-[2022-10-11 22:24:05:381][restartedMain] DEBUG c.example.vscode.VscodeApplication - Running with Spring Boot v2.7.4, Spring v5.3.23
-[2022-10-11 22:24:05:381][restartedMain] DEBUG c.example.vscode.VscodeApplication - Running with Spring Boot v2.7.4, Spring v5.3.23
-[2022-10-11 22:24:05:381][restartedMain] INFO  c.example.vscode.VscodeApplication - No active profile set, falling back to 1 default profile: "default"
-[2022-10-11 22:24:05:381][restartedMain] INFO  c.example.vscode.VscodeApplication - No active profile set, falling back to 1 default profile: "default"
-[2022-10-11 22:24:05:534][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-[2022-10-11 22:24:05:534][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-[2022-10-11 22:24:06:912][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-[2022-10-11 22:24:06:920][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
-[2022-10-11 22:24:06:1279][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
-[2022-10-11 22:24:06:1288][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
-[2022-10-11 22:24:06:1289][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-[2022-10-11 22:24:06:1289][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-[2022-10-11 22:24:06:1341][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-[2022-10-11 22:24:06:1341][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 806 ms
-[2022-10-11 22:24:06:1481][restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
-
-Using generated security password: 97f1ebcd-34e9-4181-9bb6-04f5b5fdecf9
+Using generated security password: af30ca41-5fca-4f7c-9fe9-7a29dfa69f63
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-[2022-10-11 22:24:06:1545][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@47dc92ed, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@377861f6, org.springframework.security.web.context.SecurityContextPersistenceFilter@46752613, org.springframework.security.web.header.HeaderWriterFilter@1a1dd449, org.springframework.security.web.authentication.logout.LogoutFilter@1f1328cb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3978b35, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@66282a49, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76fd0407, org.springframework.security.web.session.SessionManagementFilter@192a2179, org.springframework.security.web.access.ExceptionTranslationFilter@3c163fba]
-[2022-10-11 22:24:06:1551][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
-[2022-10-11 22:24:06:1551][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/resources/**']
-[2022-10-11 22:24:07:1786][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-[2022-10-11 22:24:07:1927][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-[2022-10-11 22:24:07:2002][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-[2022-10-11 22:24:07:2013][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
-[2022-10-11 22:24:07:2029][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
-[2022-10-11 22:24:07:2036][restartedMain] INFO  c.example.vscode.VscodeApplication - Started VscodeApplication in 1.898 seconds (JVM running for 2.349)
-[2022-10-11 22:24:07:2036][restartedMain] INFO  c.example.vscode.VscodeApplication - Started VscodeApplication in 1.898 seconds (JVM running for 2.349)
-[2022-10-11 22:24:09:4058][http-nio-8000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[2022-10-11 22:24:09:4059][http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-[2022-10-11 22:24:09:4060][http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-[2022-10-11 22:24:09:4217][http-nio-8000-exec-1] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-8000-exec-1] Exception processing template "content/main/main": Error resolving template [content/main/main], template might not exist or might not be accessible by any of the configured Template Resolvers
-org.thymeleaf.exceptions.TemplateInputException: Error resolving template [content/main/main], template might not exist or might not be accessible by any of the configured Template Resolvers
-	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
-	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+[2022-10-12 21:00:25:2035][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3b817f93, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@117299c2, org.springframework.security.web.context.SecurityContextPersistenceFilter@67122c7d, org.springframework.security.web.header.HeaderWriterFilter@5463ff1b, org.springframework.security.web.authentication.logout.LogoutFilter@7b7804e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42ce5fda, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@dbf700c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a6b646a, org.springframework.security.web.session.SessionManagementFilter@712a74, org.springframework.security.web.access.ExceptionTranslationFilter@bd1c8cf]
+[2022-10-12 21:00:25:2043][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2022-10-12 21:00:25:2044][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/resources/**']
+[2022-10-12 21:00:25:2183][restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[2022-10-12 21:00:25:2330][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2022-10-12 21:00:25:2498][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2022-10-12 21:00:25:2598][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2022-10-12 21:00:25:2609][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[2022-10-12 21:00:25:2638][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[2022-10-12 21:00:25:2645][restartedMain] INFO  c.example.vscode.VscodeApplication - Started VscodeApplication in 2.484 seconds (JVM running for 2.969)
+[2022-10-12 21:00:25:2645][restartedMain] INFO  c.example.vscode.VscodeApplication - Started VscodeApplication in 2.484 seconds (JVM running for 2.969)
+[2022-10-12 21:00:26:2748][http-nio-8000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-10-12 21:00:26:2748][http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2022-10-12 21:00:26:2750][http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[2022-10-12 21:20:44:1220755][http-nio-8000-exec-6] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-8000-exec-6] Exception processing template "content/main/main": An error happened during template parsing (template: "class path resource [templates/content/main/main.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/content/main/main.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
 	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
 	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
 	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
@@ -147,10 +121,73 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [conte
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Unknown Source)
-[2022-10-11 22:24:09:4226][http-nio-8000-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [content/main/main], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
-org.thymeleaf.exceptions.TemplateInputException: Error resolving template [content/main/main], template might not exist or might not be accessible by any of the configured Template Resolvers
+Caused by: org.attoparser.ParseException: Error resolving template [fragments/head], template might not exist or might not be accessible by any of the configured Template Resolvers (template: "layouts/default-layout" - line 6, col 9)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 83 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [fragments/head], template might not exist or might not be accessible by any of the configured Template Resolvers (template: "layouts/default-layout" - line 6, col 9)
 	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
-	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.engine.TemplateManager.parseStandalone(TemplateManager.java:250)
+	at org.thymeleaf.standard.expression.FragmentExpression.resolveExecutedFragmentExpression(FragmentExpression.java:588)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:379)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:110)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.GatheringModelProcessable.process(GatheringModelProcessable.java:78)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 85 common frames omitted
+[2022-10-12 21:20:44:1220763][http-nio-8000-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/content/main/main.html]")] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [fragments/head], template might not exist or might not be accessible by any of the configured Template Resolvers (template: "layouts/default-layout" - line 6, col 9)
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseStandalone(TemplateManager.java:250)
+	at org.thymeleaf.standard.expression.FragmentExpression.resolveExecutedFragmentExpression(FragmentExpression.java:588)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:379)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:110)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.GatheringModelProcessable.process(GatheringModelProcessable.java:78)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
 	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
 	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
 	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
@@ -232,80 +269,413 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [conte
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Unknown Source)
-[2022-10-11 22:27:43:217779][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-[2022-10-11 22:27:43:217786][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8000"]
-[2022-10-11 22:27:43:217786][Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-[2022-10-11 22:27:43:217787][Thread-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
-[2022-10-11 22:27:43:217789][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8000"]
-[2022-10-11 22:27:43:217790][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8000"]
-[2022-10-11 22:27:43:217793][Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-[2022-10-11 22:27:43:217798][Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-[2022-10-11 22:27:43:217858][restartedMain] INFO  c.example.vscode.VscodeApplication - Starting VscodeApplication using Java 17.0.4.1 on DA26 with PID 4920 (D:\study_java\SpringBoot\vscode\bin\main started by DA26 in D:\study_java\SpringBoot\vscode)
-[2022-10-11 22:27:43:217858][restartedMain] INFO  c.example.vscode.VscodeApplication - Starting VscodeApplication using Java 17.0.4.1 on DA26 with PID 4920 (D:\study_java\SpringBoot\vscode\bin\main started by DA26 in D:\study_java\SpringBoot\vscode)
-[2022-10-11 22:27:43:217859][restartedMain] DEBUG c.example.vscode.VscodeApplication - Running with Spring Boot v2.7.4, Spring v5.3.23
-[2022-10-11 22:27:43:217859][restartedMain] DEBUG c.example.vscode.VscodeApplication - Running with Spring Boot v2.7.4, Spring v5.3.23
-[2022-10-11 22:27:43:217859][restartedMain] INFO  c.example.vscode.VscodeApplication - No active profile set, falling back to 1 default profile: "default"
-[2022-10-11 22:27:43:217859][restartedMain] INFO  c.example.vscode.VscodeApplication - No active profile set, falling back to 1 default profile: "default"
-[2022-10-11 22:27:43:217970][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-[2022-10-11 22:27:43:217973][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
-[2022-10-11 22:27:43:218028][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
-[2022-10-11 22:27:43:218029][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
-[2022-10-11 22:27:43:218029][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-[2022-10-11 22:27:43:218030][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-[2022-10-11 22:27:43:218047][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-[2022-10-11 22:27:43:218048][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 187 ms
-[2022-10-11 22:27:43:218076][restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+[2022-10-12 21:21:39:1276381][http-nio-8000-exec-7] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-8000-exec-7] Exception processing template "content/main/main": An error happened during template parsing (template: "class path resource [templates/content/main/main.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/content/main/main.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1405)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1149)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.attoparser.ParseException: Error resolving template [layouts/fragments], template might not exist or might not be accessible by any of the configured Template Resolvers (template: "content/main/main" - line 7, col 5)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 83 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [layouts/fragments], template might not exist or might not be accessible by any of the configured Template Resolvers (template: "content/main/main" - line 7, col 5)
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseStandalone(TemplateManager.java:250)
+	at org.thymeleaf.engine.TemplateManager$parseStandalone.call(Unknown Source)
+	at nz.net.ultraq.thymeleaf.layoutdialect.models.TemplateModelFinder.find(TemplateModelFinder.groovy:50)
+	at nz.net.ultraq.thymeleaf.layoutdialect.models.TemplateModelFinder.find(TemplateModelFinder.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at nz.net.ultraq.thymeleaf.layoutdialect.models.TemplateModelFinder.findTemplate(TemplateModelFinder.groovy:105)
+	at nz.net.ultraq.thymeleaf.layoutdialect.models.TemplateModelFinder$findTemplate$0.call(Unknown Source)
+	at nz.net.ultraq.thymeleaf.layoutdialect.decorators.DecorateProcessor.doProcess(DecorateProcessor.groovy:116)
+	at org.thymeleaf.processor.element.AbstractAttributeModelProcessor.doProcess(AbstractAttributeModelProcessor.java:77)
+	at org.thymeleaf.processor.element.AbstractElementModelProcessor.process(AbstractElementModelProcessor.java:98)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementModelProcessorWrapper.process(ProcessorConfigurationUtils.java:649)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1510)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.GatheringModelProcessable.process(GatheringModelProcessable.java:78)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 85 common frames omitted
+[2022-10-12 21:21:39:1276389][http-nio-8000-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/content/main/main.html]")] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [layouts/fragments], template might not exist or might not be accessible by any of the configured Template Resolvers (template: "content/main/main" - line 7, col 5)
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseStandalone(TemplateManager.java:250)
+	at org.thymeleaf.engine.TemplateManager$parseStandalone.call(Unknown Source)
+	at nz.net.ultraq.thymeleaf.layoutdialect.models.TemplateModelFinder.find(TemplateModelFinder.groovy:50)
+	at nz.net.ultraq.thymeleaf.layoutdialect.models.TemplateModelFinder.find(TemplateModelFinder.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at nz.net.ultraq.thymeleaf.layoutdialect.models.TemplateModelFinder.findTemplate(TemplateModelFinder.groovy:105)
+	at nz.net.ultraq.thymeleaf.layoutdialect.models.TemplateModelFinder$findTemplate$0.call(Unknown Source)
+	at nz.net.ultraq.thymeleaf.layoutdialect.decorators.DecorateProcessor.doProcess(DecorateProcessor.groovy:116)
+	at org.thymeleaf.processor.element.AbstractAttributeModelProcessor.doProcess(AbstractAttributeModelProcessor.java:77)
+	at org.thymeleaf.processor.element.AbstractElementModelProcessor.process(AbstractElementModelProcessor.java:98)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementModelProcessorWrapper.process(ProcessorConfigurationUtils.java:649)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1510)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.GatheringModelProcessable.process(GatheringModelProcessable.java:78)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1405)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1149)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Unknown Source)
+[2022-10-12 21:33:22:442][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+[2022-10-12 21:33:22:444][restartedMain] INFO  c.example.vscode.VscodeApplication - Starting VscodeApplication using Java 17.0.4.1 on DA26 with PID 4700 (D:\study_java\SpringBoot\vscode\bin\main started by DA26 in D:\study_java\SpringBoot\vscode)
+[2022-10-12 21:33:22:444][restartedMain] INFO  c.example.vscode.VscodeApplication - Starting VscodeApplication using Java 17.0.4.1 on DA26 with PID 4700 (D:\study_java\SpringBoot\vscode\bin\main started by DA26 in D:\study_java\SpringBoot\vscode)
+[2022-10-12 21:33:22:445][restartedMain] DEBUG c.example.vscode.VscodeApplication - Running with Spring Boot v2.7.4, Spring v5.3.23
+[2022-10-12 21:33:22:445][restartedMain] DEBUG c.example.vscode.VscodeApplication - Running with Spring Boot v2.7.4, Spring v5.3.23
+[2022-10-12 21:33:22:445][restartedMain] INFO  c.example.vscode.VscodeApplication - No active profile set, falling back to 1 default profile: "default"
+[2022-10-12 21:33:22:445][restartedMain] INFO  c.example.vscode.VscodeApplication - No active profile set, falling back to 1 default profile: "default"
+[2022-10-12 21:33:22:620][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-10-12 21:33:22:621][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-10-12 21:33:23:988][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[2022-10-12 21:33:23:995][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+[2022-10-12 21:33:23:1383][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[2022-10-12 21:33:23:1389][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[2022-10-12 21:33:23:1390][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2022-10-12 21:33:23:1390][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[2022-10-12 21:33:23:1445][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2022-10-12 21:33:23:1446][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 825 ms
+[2022-10-12 21:33:23:1589][restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
 
-Using generated security password: b328ced4-8085-42b3-98f0-a381dc24b6fd
+Using generated security password: 554c66ce-7a3b-4e4a-9b8f-d81918ce76bc
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-[2022-10-11 22:27:43:218080][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@764326cc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5e770218, org.springframework.security.web.context.SecurityContextPersistenceFilter@20fc4a32, org.springframework.security.web.header.HeaderWriterFilter@fbac1bd, org.springframework.security.web.authentication.logout.LogoutFilter@73fedf9a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e476ff6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67a9e6aa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@62285438, org.springframework.security.web.session.SessionManagementFilter@a7b92a5, org.springframework.security.web.access.ExceptionTranslationFilter@1c3fcdf]
-[2022-10-11 22:27:43:218082][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
-[2022-10-11 22:27:43:218083][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/resources/**']
-[2022-10-11 22:27:43:218116][restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
-[2022-10-11 22:27:43:218140][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
-[2022-10-11 22:27:43:218192][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
-[2022-10-11 22:27:43:218201][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-[2022-10-11 22:27:43:218206][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
-[2022-10-11 22:27:43:218209][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
-[2022-10-11 22:27:43:218211][restartedMain] INFO  c.example.vscode.VscodeApplication - Started VscodeApplication in 0.376 seconds (JVM running for 218.524)
-[2022-10-11 22:27:43:218211][restartedMain] INFO  c.example.vscode.VscodeApplication - Started VscodeApplication in 0.376 seconds (JVM running for 218.524)
-[2022-10-11 22:27:43:218213][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-[2022-10-11 22:38:47:389][restartedMain] INFO  c.example.vscode.VscodeApplication - Starting VscodeApplication using Java 17.0.4.1 on DA26 with PID 18684 (D:\study_java\SpringBoot\vscode\bin\main started by DA26 in D:\study_java\SpringBoot\vscode)
-[2022-10-11 22:38:47:389][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
-[2022-10-11 22:38:47:389][restartedMain] INFO  c.example.vscode.VscodeApplication - Starting VscodeApplication using Java 17.0.4.1 on DA26 with PID 18684 (D:\study_java\SpringBoot\vscode\bin\main started by DA26 in D:\study_java\SpringBoot\vscode)
-[2022-10-11 22:38:47:390][restartedMain] DEBUG c.example.vscode.VscodeApplication - Running with Spring Boot v2.7.4, Spring v5.3.23
-[2022-10-11 22:38:47:390][restartedMain] DEBUG c.example.vscode.VscodeApplication - Running with Spring Boot v2.7.4, Spring v5.3.23
-[2022-10-11 22:38:47:390][restartedMain] INFO  c.example.vscode.VscodeApplication - No active profile set, falling back to 1 default profile: "default"
-[2022-10-11 22:38:47:390][restartedMain] INFO  c.example.vscode.VscodeApplication - No active profile set, falling back to 1 default profile: "default"
-[2022-10-11 22:38:47:539][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-[2022-10-11 22:38:47:540][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-[2022-10-11 22:38:47:873][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-[2022-10-11 22:38:47:882][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
-[2022-10-11 22:38:48:1252][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
-[2022-10-11 22:38:48:1262][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
-[2022-10-11 22:38:48:1263][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-[2022-10-11 22:38:48:1263][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
-[2022-10-11 22:38:48:1316][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-[2022-10-11 22:38:48:1317][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 776 ms
-[2022-10-11 22:38:48:1450][restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+[2022-10-12 21:33:24:1635][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1ba18371, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71873d80, org.springframework.security.web.context.SecurityContextPersistenceFilter@573e576a, org.springframework.security.web.header.HeaderWriterFilter@438c65f6, org.springframework.security.web.authentication.logout.LogoutFilter@5f654a0b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ec6aed6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e1a2b95, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5673e81d, org.springframework.security.web.session.SessionManagementFilter@9d20745, org.springframework.security.web.access.ExceptionTranslationFilter@23140213]
+[2022-10-12 21:33:24:1638][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2022-10-12 21:33:24:1638][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/resources/**']
+[2022-10-12 21:33:24:1752][restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[2022-10-12 21:33:24:1861][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2022-10-12 21:33:24:2029][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2022-10-12 21:33:24:2114][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2022-10-12 21:33:24:2122][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[2022-10-12 21:33:24:2137][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[2022-10-12 21:33:24:2145][restartedMain] INFO  c.example.vscode.VscodeApplication - Started VscodeApplication in 1.966 seconds (JVM running for 2.282)
+[2022-10-12 21:33:24:2145][restartedMain] INFO  c.example.vscode.VscodeApplication - Started VscodeApplication in 1.966 seconds (JVM running for 2.282)
+[2022-10-12 21:33:26:4090][http-nio-8000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-10-12 21:33:26:4090][http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2022-10-12 21:33:26:4091][http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[2022-10-12 21:38:15:292832][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2022-10-12 21:38:15:292839][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8000"]
+[2022-10-12 21:38:15:292840][Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2022-10-12 21:38:15:292840][Thread-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2022-10-12 21:38:15:292842][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8000"]
+[2022-10-12 21:38:15:292843][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8000"]
+[2022-10-12 21:38:15:292846][Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[2022-10-12 21:38:15:292850][Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[2022-10-12 21:38:15:292908][restartedMain] INFO  c.example.vscode.VscodeApplication - Starting VscodeApplication using Java 17.0.4.1 on DA26 with PID 4700 (D:\study_java\SpringBoot\vscode\bin\main started by DA26 in D:\study_java\SpringBoot\vscode)
+[2022-10-12 21:38:15:292908][restartedMain] INFO  c.example.vscode.VscodeApplication - Starting VscodeApplication using Java 17.0.4.1 on DA26 with PID 4700 (D:\study_java\SpringBoot\vscode\bin\main started by DA26 in D:\study_java\SpringBoot\vscode)
+[2022-10-12 21:38:15:292909][restartedMain] DEBUG c.example.vscode.VscodeApplication - Running with Spring Boot v2.7.4, Spring v5.3.23
+[2022-10-12 21:38:15:292909][restartedMain] DEBUG c.example.vscode.VscodeApplication - Running with Spring Boot v2.7.4, Spring v5.3.23
+[2022-10-12 21:38:15:292909][restartedMain] INFO  c.example.vscode.VscodeApplication - No active profile set, falling back to 1 default profile: "default"
+[2022-10-12 21:38:15:292909][restartedMain] INFO  c.example.vscode.VscodeApplication - No active profile set, falling back to 1 default profile: "default"
+[2022-10-12 21:38:15:293006][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[2022-10-12 21:38:15:293008][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+[2022-10-12 21:38:15:293068][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[2022-10-12 21:38:15:293068][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[2022-10-12 21:38:15:293069][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2022-10-12 21:38:15:293069][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[2022-10-12 21:38:15:293090][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2022-10-12 21:38:15:293091][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 180 ms
+[2022-10-12 21:38:15:293120][restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
 
-Using generated security password: 5bbcea9d-df8d-4ec2-9539-bf507da808b4
+Using generated security password: 49c2dd65-83e7-44a9-a5d4-e321f082ab71
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-[2022-10-11 22:38:48:1502][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@761d9f59, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48767ec3, org.springframework.security.web.context.SecurityContextPersistenceFilter@6502fdc2, org.springframework.security.web.header.HeaderWriterFilter@4ad60b7b, org.springframework.security.web.authentication.logout.LogoutFilter@4d752293, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@594d4f09, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d635a7c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37f61252, org.springframework.security.web.session.SessionManagementFilter@faf4aa3, org.springframework.security.web.access.ExceptionTranslationFilter@65242bf3]
-[2022-10-11 22:38:48:1508][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
-[2022-10-11 22:38:48:1509][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/resources/**']
-[2022-10-11 22:38:48:1625][restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
-[2022-10-11 22:38:48:1738][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-[2022-10-11 22:38:48:1889][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-[2022-10-11 22:38:48:1962][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-[2022-10-11 22:38:48:1973][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
-[2022-10-11 22:38:48:1986][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
-[2022-10-11 22:38:48:1993][restartedMain] INFO  c.example.vscode.VscodeApplication - Started VscodeApplication in 1.852 seconds (JVM running for 2.299)
-[2022-10-11 22:38:48:1993][restartedMain] INFO  c.example.vscode.VscodeApplication - Started VscodeApplication in 1.852 seconds (JVM running for 2.299)
-[2022-10-11 22:40:16:90084][http-nio-8000-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[2022-10-11 22:40:16:90084][http-nio-8000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-[2022-10-11 22:40:16:90085][http-nio-8000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[2022-10-12 21:38:15:293124][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@12f13902, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@17bb1f4c, org.springframework.security.web.context.SecurityContextPersistenceFilter@3ee2636d, org.springframework.security.web.header.HeaderWriterFilter@58e5ffe8, org.springframework.security.web.authentication.logout.LogoutFilter@d9513bb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@733d98cb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@45033fb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@387b2fb3, org.springframework.security.web.session.SessionManagementFilter@7a6bdbd7, org.springframework.security.web.access.ExceptionTranslationFilter@7be6de84]
+[2022-10-12 21:38:15:293126][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2022-10-12 21:38:15:293126][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/resources/**']
+[2022-10-12 21:38:15:293157][restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[2022-10-12 21:38:15:293180][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[2022-10-12 21:38:15:293231][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+[2022-10-12 21:38:15:293240][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2022-10-12 21:38:15:293243][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[2022-10-12 21:38:15:293246][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[2022-10-12 21:38:15:293249][restartedMain] INFO  c.example.vscode.VscodeApplication - Started VscodeApplication in 0.361 seconds (JVM running for 293.386)
+[2022-10-12 21:38:15:293249][restartedMain] INFO  c.example.vscode.VscodeApplication - Started VscodeApplication in 0.361 seconds (JVM running for 293.386)
+[2022-10-12 21:38:15:293251][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2022-10-12 21:38:18:295860][http-nio-8000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-10-12 21:38:18:295860][http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2022-10-12 21:38:18:295861][http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[2022-10-12 21:39:07:345499][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2022-10-12 21:39:07:345504][Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8000"]
+[2022-10-12 21:39:07:345504][Thread-7] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2022-10-12 21:39:07:345505][Thread-7] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2022-10-12 21:39:07:345506][Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8000"]
+[2022-10-12 21:39:07:345507][Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8000"]
+[2022-10-12 21:39:07:345508][Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+[2022-10-12 21:39:07:345509][Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+[2022-10-12 21:39:07:345561][restartedMain] INFO  c.example.vscode.VscodeApplication - Starting VscodeApplication using Java 17.0.4.1 on DA26 with PID 4700 (D:\study_java\SpringBoot\vscode\bin\main started by DA26 in D:\study_java\SpringBoot\vscode)
+[2022-10-12 21:39:07:345561][restartedMain] INFO  c.example.vscode.VscodeApplication - Starting VscodeApplication using Java 17.0.4.1 on DA26 with PID 4700 (D:\study_java\SpringBoot\vscode\bin\main started by DA26 in D:\study_java\SpringBoot\vscode)
+[2022-10-12 21:39:07:345562][restartedMain] DEBUG c.example.vscode.VscodeApplication - Running with Spring Boot v2.7.4, Spring v5.3.23
+[2022-10-12 21:39:07:345562][restartedMain] DEBUG c.example.vscode.VscodeApplication - Running with Spring Boot v2.7.4, Spring v5.3.23
+[2022-10-12 21:39:07:345562][restartedMain] INFO  c.example.vscode.VscodeApplication - No active profile set, falling back to 1 default profile: "default"
+[2022-10-12 21:39:07:345562][restartedMain] INFO  c.example.vscode.VscodeApplication - No active profile set, falling back to 1 default profile: "default"
+[2022-10-12 21:39:08:345650][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[2022-10-12 21:39:08:345653][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+[2022-10-12 21:39:08:345699][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[2022-10-12 21:39:08:345700][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[2022-10-12 21:39:08:345700][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2022-10-12 21:39:08:345700][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[2022-10-12 21:39:08:345716][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2022-10-12 21:39:08:345716][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 153 ms
+[2022-10-12 21:39:08:345739][restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 719961e7-23e5-401e-a957-9d50005796e7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2022-10-12 21:39:08:345743][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@55218c07, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@bc55f83, org.springframework.security.web.context.SecurityContextPersistenceFilter@7fc9fee, org.springframework.security.web.header.HeaderWriterFilter@3c67526e, org.springframework.security.web.authentication.logout.LogoutFilter@1beed45d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7b96a2ed, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d646bd3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2783579, org.springframework.security.web.session.SessionManagementFilter@5b0bdc8e, org.springframework.security.web.access.ExceptionTranslationFilter@1c0c1357]
+[2022-10-12 21:39:08:345744][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2022-10-12 21:39:08:345744][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/resources/**']
+[2022-10-12 21:39:08:345770][restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[2022-10-12 21:39:08:345786][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+[2022-10-12 21:39:08:345834][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+[2022-10-12 21:39:08:345842][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2022-10-12 21:39:08:345845][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[2022-10-12 21:39:08:345847][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[2022-10-12 21:39:08:345849][restartedMain] INFO  c.example.vscode.VscodeApplication - Started VscodeApplication in 0.307 seconds (JVM running for 345.987)
+[2022-10-12 21:39:08:345849][restartedMain] INFO  c.example.vscode.VscodeApplication - Started VscodeApplication in 0.307 seconds (JVM running for 345.987)
+[2022-10-12 21:39:08:345850][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2022-10-12 21:39:10:347685][http-nio-8000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-10-12 21:39:10:347685][http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2022-10-12 21:39:10:347686][http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[2022-10-12 21:39:17:467][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+[2022-10-12 21:39:17:469][restartedMain] INFO  c.example.vscode.VscodeApplication - Starting VscodeApplication using Java 17.0.4.1 on DA26 with PID 10592 (D:\study_java\SpringBoot\vscode\bin\main started by DA26 in D:\study_java\SpringBoot\vscode)
+[2022-10-12 21:39:17:469][restartedMain] INFO  c.example.vscode.VscodeApplication - Starting VscodeApplication using Java 17.0.4.1 on DA26 with PID 10592 (D:\study_java\SpringBoot\vscode\bin\main started by DA26 in D:\study_java\SpringBoot\vscode)
+[2022-10-12 21:39:17:470][restartedMain] DEBUG c.example.vscode.VscodeApplication - Running with Spring Boot v2.7.4, Spring v5.3.23
+[2022-10-12 21:39:17:470][restartedMain] DEBUG c.example.vscode.VscodeApplication - Running with Spring Boot v2.7.4, Spring v5.3.23
+[2022-10-12 21:39:17:471][restartedMain] INFO  c.example.vscode.VscodeApplication - No active profile set, falling back to 1 default profile: "default"
+[2022-10-12 21:39:17:471][restartedMain] INFO  c.example.vscode.VscodeApplication - No active profile set, falling back to 1 default profile: "default"
+[2022-10-12 21:39:17:634][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-10-12 21:39:17:635][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-10-12 21:39:17:994][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[2022-10-12 21:39:17:1003][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+[2022-10-12 21:39:18:1411][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[2022-10-12 21:39:18:1419][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[2022-10-12 21:39:18:1420][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2022-10-12 21:39:18:1421][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[2022-10-12 21:39:18:1477][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2022-10-12 21:39:18:1478][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 843 ms
+[2022-10-12 21:39:18:1634][restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 21ce18b9-f154-4ab9-8de7-19a1abd3a1a1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2022-10-12 21:39:18:1684][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@16d620a5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ee1b9b4, org.springframework.security.web.context.SecurityContextPersistenceFilter@6abf54cc, org.springframework.security.web.header.HeaderWriterFilter@23140213, org.springframework.security.web.authentication.logout.LogoutFilter@6b51a455, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@573e576a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@76b294d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ba18371, org.springframework.security.web.session.SessionManagementFilter@355976b9, org.springframework.security.web.access.ExceptionTranslationFilter@7915f6e3]
+[2022-10-12 21:39:18:1688][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2022-10-12 21:39:18:1688][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/resources/**']
+[2022-10-12 21:39:18:1827][restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[2022-10-12 21:39:18:1982][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2022-10-12 21:39:19:2161][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2022-10-12 21:39:19:2257][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2022-10-12 21:39:19:2267][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[2022-10-12 21:39:19:2283][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[2022-10-12 21:39:19:2290][restartedMain] INFO  c.example.vscode.VscodeApplication - Started VscodeApplication in 2.102 seconds (JVM running for 2.433)
+[2022-10-12 21:39:19:2290][restartedMain] INFO  c.example.vscode.VscodeApplication - Started VscodeApplication in 2.102 seconds (JVM running for 2.433)
+[2022-10-12 21:39:19:2991][http-nio-8000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-10-12 21:39:19:2991][http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2022-10-12 21:39:19:2992][http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
